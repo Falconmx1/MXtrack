@@ -34,3 +34,26 @@ git clone https://github.com/Falconmx1/MXtrack
 cd MXtrack
 pip install -r requirements.txt
 python MXtrack.py
+
+
+## 🚀 Instrucciones finales
+# 1. Clonar o crear el proyecto
+mkdir MXtrack && cd MXtrack
+
+# 2. Crear estructura de carpetas
+mkdir modules logs
+
+# 3. Crear todos los archivos (copia los códigos de arriba)
+# - MXtrack.py (el completo)
+# - modules/utils.py
+# - modules/tracker.py (del mensaje anterior)
+# - modules/osint.py (del mensaje anterior)
+# - modules/geoip.py (del mensaje anterior)
+# - modules/sms_spoof.py (del mensaje anterior)
+# - modules/vuln_scan.py (del mensaje anterior)
+# - requirements.txt
+# - proxys.txt (se crea automático)
+
+# 4. Instalar y ejecutar
+pip install -r requirements.txt
+python3 MXtrack.py
