@@ -4,5 +4,4 @@ phonenumbers>=8.12.0
 colorama>=0.4.5
 pyfiglet>=0.8.post1
 twilio>=8.10.0
-socket
-threading
+socks>=1.0.0
