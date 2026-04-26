@@ -17,7 +17,12 @@
 
 ### Linux / Termux
 ```bash
-git clone https://github.com/tuusuario/MXtrack
+git clone https://github.com/Falconmx1/MXtrack
 cd MXtrack
 bash setup.sh
 python3 MXtrack.py
+
+git clone https://github.com/Falconmx1/MXtrack
+cd MXtrack
+pip install -r requirements.txt
+python MXtrack.py
