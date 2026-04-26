@@ -57,3 +57,17 @@ mkdir modules logs
 # 4. Instalar y ejecutar
 pip install -r requirements.txt
 python3 MXtrack.py
+
+🚀 Probarlo en tu máquina
+
+# Escaneo SYN (requiere sudo)
+sudo python mxmap.py -t 192.168.1.1 --syn-scan -p 22,80,443 --stealth
+
+# Detectar OS
+python mxmap.py -t google.com --detect-os
+
+# Fuzzing web
+python mxmap.py --web-fuzz https://ejemplo.com
+
+# Shodan
+python mxmap.py --shodan 8.8.8.8 --shodan-key TU_API_KEY
